@@ -1,0 +1,21 @@
+{
+  "name": "pavan-portfolio",
+  "version": "1.0.0",
+  "description": "Editorial personal site for Pavan Kumar, founder and brand strategist.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "live-server --host=127.0.0.1 --port=8080",
+    "start": "live-server --host=127.0.0.1 --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

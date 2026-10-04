@@ -1,0 +1,831 @@
+/* =========================================================
+   CONTACT — PAVAN KUMAR
+   Founder · Brand Strategist
+   Pizhai Brand Studio
+   ========================================================= */
+
+
+/* =========================================================
+   01. CONTACT FOUNDATION
+   ========================================================= */
+
+#main-content {
+  background: #f7f6f2;
+  color: #0b1220;
+  overflow: clip;
+}
+
+#main-content .container {
+  width: min(1320px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+#main-content .kicker {
+  margin: 0;
+  padding-left: 3px;
+  color: #2563eb;
+  font-family: "Inter", sans-serif;
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   02. CONTACT HERO
+   ========================================================= */
+
+.contact-hero {
+  position: relative;
+  padding: 4.5rem 0 2rem;
+  border-bottom: 1px solid #d9dee7;
+}
+
+.contact-hero__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contact-hero__location {
+  margin: 0;
+  color: #8a93a3;
+  font-family: "Inter", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.contact-hero__content {
+  display: grid;
+  gap: 3rem;
+  margin-top: 4.5rem;
+}
+
+.contact-hero h1 {
+  max-width: 1000px;
+  margin: 0;
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(3.8rem, 16vw, 8.5rem);
+  font-weight: 800;
+  letter-spacing: -0.085em;
+  line-height: 0.84;
+}
+
+.contact-hero h1 span {
+  color: #2563eb;
+}
+
+.contact-hero__side {
+  display: grid;
+  gap: 2rem;
+  max-width: 430px;
+}
+
+.contact-hero__side p {
+  max-width: 390px;
+  margin: 0;
+  color: #4f5968;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.contact-hero__cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-height: 76px;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid #0b1220;
+  background: #0b1220;
+  color: #f7f6f2;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.contact-hero__cta span:last-child {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contact-hero__cta:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.contact-hero__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9dee7;
+}
+
+.contact-hero__bottom p {
+  margin: 0;
+  color: #8a93a3;
+  font-family: "Inter", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   03. PROJECT SECTION
+   ========================================================= */
+
+.contact-project {
+  padding: 5rem 0 6rem;
+}
+
+.contact-project .container {
+  display: grid;
+  gap: 4rem;
+}
+
+.contact-project__intro {
+  max-width: 620px;
+}
+
+.contact-project__intro h2 {
+  max-width: 800px;
+  margin: 1.5rem 0 0;
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(2.7rem, 10vw, 5.5rem);
+  font-weight: 750;
+  letter-spacing: -0.075em;
+  line-height: 0.92;
+}
+
+.contact-project__intro > p:last-child {
+  max-width: 500px;
+  margin: 2rem 0 0;
+  color: #5b6472;
+  font-family: "Inter", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   04. FORM
+   ========================================================= */
+
+.project-form {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.project-form__group {
+  margin: 0;
+  padding: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid #d9dee7;
+}
+
+.project-form__group:last-of-type {
+  border-bottom: 1px solid #d9dee7;
+}
+
+.project-form__group legend {
+  width: 100%;
+  margin-bottom: 1.75rem;
+  padding: 0;
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+}
+
+.project-form__group legend span {
+  display: inline-block;
+  min-width: 2rem;
+  margin-right: 0.5rem;
+  color: #2563eb;
+  font-family: "Inter", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+}
+
+
+/* =========================================================
+   05. OPTION BUTTONS
+   ========================================================= */
+
+.project-options {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.project-option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 58px;
+  padding: 0 1rem;
+  border: 1px solid #d9dee7;
+  background: transparent;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.project-option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-option span {
+  color: #4f5968;
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.project-option:hover {
+  border-color: #8a93a3;
+  transform: translateX(3px);
+}
+
+.project-option:has(input:checked) {
+  border-color: #2563eb;
+  background: #2563eb;
+}
+
+.project-option:has(input:checked) span {
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   06. TEXTAREA + INPUTS
+   ========================================================= */
+
+.project-field {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.project-field > span {
+  color: #5b6472;
+  font-family: "Inter", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.project-field input,
+.project-field textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #aeb6c2;
+  border-radius: 0;
+  outline: 0;
+  background: transparent;
+  color: #0b1220;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: border-color 180ms ease;
+}
+
+.project-field input {
+  min-height: 56px;
+  padding: 0;
+}
+
+.project-field textarea {
+  min-height: 180px;
+  padding: 0 0 1rem;
+  resize: vertical;
+}
+
+.project-field input::placeholder,
+.project-field textarea::placeholder {
+  color: #aeb6c2;
+  opacity: 1;
+}
+
+.project-field input:focus,
+.project-field textarea:focus {
+  border-color: #2563eb;
+}
+
+.project-form__fields {
+  display: grid;
+  gap: 2rem;
+}
+
+
+/* =========================================================
+   07. FORM SUBMIT
+   ========================================================= */
+
+.project-form__submit {
+  display: grid;
+  gap: 2rem;
+  padding-top: 2.5rem;
+}
+
+.project-form__submit p {
+  margin: 0;
+  color: #8a93a3;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.6;
+}
+
+.project-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-height: 90px;
+  padding: 1.5rem 1.5rem 1.5rem 1.75rem;
+  border: 0;
+  background: #0b1220;
+  color: #f7f6f2;
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1.4rem, 5vw, 2.5rem);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  text-align: left;
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.project-submit span:last-child {
+  font-family: "Inter", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.project-submit:hover {
+  background: #2563eb;
+  transform: translateY(-4px);
+}
+
+
+/* =========================================================
+   08. SUCCESS + ERROR
+   ========================================================= */
+
+.project-form__success,
+.project-form__error {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.project-form__success {
+  display: grid;
+  gap: 0.4rem;
+  border-left: 3px solid #2563eb;
+  background: #eef2f7;
+}
+
+.project-form__success strong {
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.25rem;
+}
+
+.project-form__success span {
+  color: #5b6472;
+  font-family: "Inter", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.project-form__error {
+  border-left: 3px solid #0b1220;
+  background: #eef2f7;
+  color: #5b6472;
+  font-family: "Inter", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   09. DIRECT CONTACT
+   ========================================================= */
+
+.contact-direct {
+  padding: 5rem 0;
+  border-top: 1px solid #d9dee7;
+}
+
+.contact-direct__header {
+  max-width: 700px;
+}
+
+.contact-direct__header h2 {
+  margin: 1.5rem 0 0;
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(2.7rem, 9vw, 5.5rem);
+  font-weight: 750;
+  letter-spacing: -0.075em;
+  line-height: 0.92;
+}
+
+.contact-direct__links {
+  margin-top: 4rem;
+  border-top: 1px solid #d9dee7;
+}
+
+.contact-direct__links a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #d9dee7;
+  text-decoration: none;
+  transition: padding 180ms ease;
+}
+
+.contact-direct__links a span:first-child {
+  grid-column: 1 / -1;
+  color: #8a93a3;
+  font-family: "Inter", sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact-direct__links strong {
+  color: #0b1220;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+
+.contact-direct__links a > span:last-child {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  color: #2563eb;
+  font-size: 1.25rem;
+}
+
+.contact-direct__links a:hover {
+  padding-left: 8px;
+}
+
+
+/* =========================================================
+   10. FINAL CTA
+   ========================================================= */
+
+.contact-closing {
+  padding: 5.5rem 0 6rem;
+  background: #0b1220;
+  color: #f7f6f2;
+}
+
+.contact-closing .kicker {
+  color: #6ea8fe;
+}
+
+.contact-closing h2 {
+  max-width: 1000px;
+  margin: 1.5rem 0 2.5rem;
+  color: #f7f6f2;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(3.2rem, 12vw, 8rem);
+  font-weight: 800;
+  letter-spacing: -0.085em;
+  line-height: 0.86;
+}
+
+.contact-closing a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #f7f6f2;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  line-height: 1.4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-closing a span {
+  color: #6ea8fe;
+  font-size: 1.1rem;
+  transition: transform 180ms ease;
+}
+
+.contact-closing a:hover span {
+  transform: translate(3px, -3px);
+}
+
+
+/* =========================================================
+   11. TABLET
+   ========================================================= */
+
+@media (min-width: 700px) {
+
+  #main-content .container {
+    width: min(1320px, calc(100% - 80px));
+  }
+
+  .contact-hero {
+    padding: 6.5rem 0 2.5rem;
+  }
+
+  .contact-hero__content {
+    grid-template-columns: minmax(0, 1fr) 360px;
+    align-items: end;
+    gap: 5rem;
+    margin-top: 6rem;
+  }
+
+  .contact-hero h1 {
+    font-size: clamp(5rem, 10vw, 9rem);
+  }
+
+  .contact-hero__side {
+    padding-bottom: 0.4rem;
+  }
+
+  .contact-hero__bottom {
+    margin-top: 5rem;
+  }
+
+  .contact-project {
+    padding: 7rem 0 8rem;
+  }
+
+  .contact-project .container {
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: 6rem;
+    align-items: start;
+  }
+
+  .contact-project__intro {
+    position: sticky;
+    top: 6rem;
+  }
+
+  .project-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-form__fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem 2rem;
+  }
+
+  .project-field--full {
+    grid-column: 1 / -1;
+  }
+
+  .project-form__submit {
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .project-submit {
+    min-height: 110px;
+  }
+
+  .contact-direct {
+    padding: 7rem 0;
+  }
+
+  .contact-direct__links {
+    margin-top: 5rem;
+  }
+
+  .contact-direct__links a {
+    grid-template-columns: 180px 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  .contact-direct__links a span:first-child {
+    grid-column: auto;
+  }
+
+  .contact-direct__links strong {
+    grid-column: 2;
+  }
+
+  .contact-direct__links a > span:last-child {
+    grid-column: 3;
+    grid-row: auto;
+  }
+
+  .contact-closing {
+    padding: 8rem 0 9rem;
+  }
+}
+
+
+/* =========================================================
+   12. DESKTOP
+   ========================================================= */
+
+@media (min-width: 1000px) {
+
+  #main-content .container {
+    width: min(1320px, calc(100% - 128px));
+  }
+
+  .contact-hero {
+    padding: 8.5rem 0 3rem;
+  }
+
+  .contact-hero__content {
+    grid-template-columns: minmax(0, 1fr) 400px;
+    gap: 8rem;
+    margin-top: 7.5rem;
+  }
+
+  .contact-hero h1 {
+    max-width: 1000px;
+    font-size: clamp(6rem, 9vw, 9.5rem);
+  }
+
+  .contact-hero__side p {
+    font-size: 0.95rem;
+  }
+
+  .contact-hero__cta {
+    min-height: 84px;
+  }
+
+  .contact-hero__bottom {
+    margin-top: 7rem;
+  }
+
+  .contact-project {
+    padding: 9rem 0 10rem;
+  }
+
+  .contact-project .container {
+    grid-template-columns: minmax(280px, 0.65fr) minmax(0, 1.35fr);
+    gap: 9rem;
+  }
+
+  .contact-project__intro h2 {
+    font-size: clamp(3.5rem, 5vw, 5.8rem);
+  }
+
+  .project-form__group {
+    padding: 3.5rem 0;
+  }
+
+  .project-form__group legend {
+    font-size: 1.3rem;
+  }
+
+  .project-option {
+    min-height: 64px;
+    padding-inline: 1.2rem;
+  }
+
+  .project-option span {
+    font-size: 0.82rem;
+  }
+
+  .project-form__submit {
+    padding-top: 3rem;
+  }
+
+  .project-submit {
+    min-height: 125px;
+    padding-inline: 2rem;
+  }
+
+  .contact-direct {
+    padding: 9rem 0;
+  }
+
+  .contact-direct__header h2 {
+    font-size: clamp(4rem, 5.5vw, 6rem);
+  }
+
+  .contact-closing {
+    padding: 10rem 0 11rem;
+  }
+
+  .contact-closing h2 {
+    max-width: 1100px;
+    font-size: clamp(5rem, 8vw, 9rem);
+  }
+}
+
+
+/* =========================================================
+   13. LARGE DESKTOP
+   ========================================================= */
+
+@media (min-width: 1400px) {
+
+  #main-content .container {
+    width: min(1320px, calc(100% - 160px));
+  }
+
+  .contact-hero {
+    padding-top: 9rem;
+  }
+
+  .contact-hero__content {
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 10rem;
+  }
+
+  .contact-project .container {
+    grid-template-columns: 360px minmax(0, 1fr);
+    gap: 10rem;
+  }
+}
+
+
+/* =========================================================
+   14. SCREEN READER UTILITY
+   ========================================================= */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* =========================================================
+   15. REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .contact-hero__cta,
+  .project-option,
+  .project-field input,
+  .project-field textarea,
+  .project-submit,
+  .contact-direct__links a,
+  .contact-closing a span {
+    transition: none;
+  }
+}
